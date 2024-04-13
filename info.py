@@ -96,9 +96,9 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TMR_how_to_downlod/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001951576050'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', ''))
-NEW_USER_LOG = int(environ.get('NEW_USER_LOG', ''))
+NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1001951576050'))
 BIN_CHNL = int(environ.get('BIN_CHNL', ''))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
